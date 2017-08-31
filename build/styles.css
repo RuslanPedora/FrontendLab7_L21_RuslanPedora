@@ -1,0 +1,11 @@
+ul {
+  background-color: #ebebeb;
+  color: #dcdcc8;
+  width: 300px;
+  box-shadow: 0 0 5px 5px #646464;
+  padding: 10px; }
+
+li {
+  margin-left: 20px; }
+body {
+  background-color: #f0f0f0; }
