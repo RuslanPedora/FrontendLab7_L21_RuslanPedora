@@ -1,4 +1,3 @@
-const CleanWebpackPlugin = require('clean-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const extractHtml = new ExtractTextPlugin({ filename: 'index.html' });
 //--------------------------------------------------------------------------------
@@ -19,8 +18,7 @@ module.exports = {
         }]
     },
     plugins: [ 
-        extractHtml,
-        new CleanWebpackPlugin(['build'])     
+        extractHtml
     ]
 }
 //--------------------------------------------------------------------------------
